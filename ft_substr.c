@@ -6,7 +6,7 @@
 /*   By: jakim <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/29 14:28:39 by jakim             #+#    #+#             */
-/*   Updated: 2024/03/14 11:46:10 by jakim            ###   ########.fr       */
+/*   Updated: 2024/03/14 11:53:35 by jakim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 
 	if (!s)
 		return (NULL);
-	mem = (char *)malloc(sizeof(char) * (ft_strlen(s) + 1));
+	mem = (char *)malloc(sizeof(char) * (len + 1));
 	if (mem == NULL)
 		return (NULL);
 	if (start >= ft_strlen(s))

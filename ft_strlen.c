@@ -6,7 +6,7 @@
 /*   By: jakim <jakim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/27 21:13:37 by jakim             #+#    #+#             */
-/*   Updated: 2024/03/14 11:40:16 by jakim            ###   ########.fr       */
+/*   Updated: 2024/03/14 11:49:42 by jakim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 size_t	ft_strlen(const char *s)
 {
 	char	*str;
-	size_t		i;
+	size_t	i;
 
 	i = 0;
 	str = (char *)s;
