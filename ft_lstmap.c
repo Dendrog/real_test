@@ -6,7 +6,7 @@
 /*   By: jakim <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/08 18:23:20 by jakim             #+#    #+#             */
-/*   Updated: 2024/03/11 18:38:57 by jakim            ###   ########.fr       */
+/*   Updated: 2024/03/14 11:58:20 by jakim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		}
 		ft_lstadd_back(&ptr, tmp);
 		lst = lst->next;
-	}	
+	}
 	return (ptr);
 }

@@ -6,7 +6,7 @@
 /*   By: jakim <jakim@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 19:50:15 by jakim             #+#    #+#             */
-/*   Updated: 2024/03/11 18:44:34 by jakim            ###   ########.fr       */
+/*   Updated: 2024/03/14 11:58:08 by jakim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ static int	sign(int n, int fd, char *str, int *flag)
 	}
 	else
 		return (1);
-}	
+}
 
 void	ft_putnbr_fd(int n, int fd)
 {
